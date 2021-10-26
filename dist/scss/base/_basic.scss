@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+// ===== padding gap ======
+.p-0 {
+  padding: 0 !important;
+}
+.pt-30 {
+  padding-top: $g-30;
+}
+.pb-30 {
+  padding-bottom: $g-30;
+}
+.py-30 {
+  padding-top: $g-30;
+  padding-bottom: $g-30;
+}
+.py-60 {
+  padding-top: $g-60;
+  padding-bottom: $g-60;
+}
+
+// ===== margin gap ======
+.mt-30 {
+  margin-top: $g-30;
+}
+.mb-30 {
+  margin-bottom: $g-30;
+}
+.my-30 {
+  margin-top: $g-30;
+  margin-bottom: $g-30;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}

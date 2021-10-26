@@ -1,0 +1,64 @@
+.slider {
+  height: 650px !important;
+  .slides {
+    height: 100% !important;
+  }
+}
+
+.consulting-slider {
+  .caption {
+    top: 25% !important;
+    left: 12.8% !important;
+    h2 {
+      color: $primary-color;
+      font-weight: 700;
+
+      span {
+        color: #333;
+      }
+    }
+    h5 {
+      color: $paragraph-dark-text;
+      margin-bottom: 60px;
+      line-height: 1.5;
+    }
+    .slider-btn {
+      @include link-as-btn;
+
+      .material-icons {
+        @include link-as-btn-right-arrow;
+      }
+    }
+    .btn-one {
+      background: $primary-color;
+      color: #fff;
+
+      .material-icons {
+        color: $secondary-color;
+      }
+    }
+    .btn-two {
+      background: $secondary-color;
+      color: $primary-color;
+      margin-left: 12px;
+
+      .material-icons {
+        color: $primary-color;
+      }
+    }
+  }
+  .indicators {
+    bottom: 25px !important;
+    z-index: 10;
+
+    .indicator-item {
+      width: 34px !important;
+      height: 3.5px !important;
+      border-radius: 0 !important;
+
+      &.active {
+        background: $primary-color !important;
+      }
+    }
+  }
+}

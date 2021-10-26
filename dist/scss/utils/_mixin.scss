@@ -1,0 +1,37 @@
+@mixin element-flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin pl-0 {
+  padding-left: 0;
+}
+
+@mixin my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin link-as-btn {
+  height: 40px !important;
+  line-height: 40px !important;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: none;
+  transition: all 0.4s;
+}
+
+@mixin link-as-btn-right-arrow {
+  font-size: 25px !important;
+  margin-left: 5px;
+}
+
+@mixin section-gap {
+  margin-bottom: 60px;
+}
+
+@mixin subsection-gap {
+  margin-bottom: 30px;
+}

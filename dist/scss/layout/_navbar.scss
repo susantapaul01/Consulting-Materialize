@@ -1,0 +1,39 @@
+.my-nav {
+  height: 90px;
+  line-height: 90px;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  z-index: 10;
+
+  .nav-wrapper {
+    .sidenav-trigger {
+      height: 90px;
+      line-height: 90px;
+      float: right;
+      color: $primary-color;
+      i {
+        height: 90px;
+        line-height: 90px;
+        font-size: 34px;
+      }
+    }
+    ul {
+      li {
+        a {
+          color: $primary-color;
+          font-size: $text;
+          text-transform: capitalize;
+          font-weight: 500;
+
+          &:hover {
+            background: transparent;
+          }
+          &:focus,
+          &:active {
+            color: $hover-link;
+          }
+        }
+      }
+    }
+  }
+}

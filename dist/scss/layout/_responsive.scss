@@ -1,0 +1,48 @@
+@include mobile {
+  .container {
+    width: 95% !important;
+  }
+  //   =========
+  .top-right {
+    .top-bar-info {
+      display: none;
+    }
+    .top-bar-branch {
+      margin-left: 0px;
+    }
+  }
+  //   ==========
+  .bg-color-text {
+    max-height: none !important;
+    margin-bottom: 0px !important;
+    p {
+      text-align: center;
+      line-height: none !important;
+    }
+  }
+  .bg-color-btn {
+    text-align: center;
+  }
+}
+
+@include tablet {
+  // =============
+  .bg-color-text {
+    max-height: 25px;
+    p {
+      line-height: 25px;
+    }
+  }
+}
+
+@include desktop {
+  .container {
+    width: 75% !important;
+  }
+  .bg-color-text {
+    max-height: 40px;
+    p {
+      line-height: 40px;
+    }
+  }
+}

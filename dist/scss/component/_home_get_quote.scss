@@ -1,0 +1,42 @@
+.get_a_quote {
+  background: $secondary-color;
+}
+
+.bg-color-text {
+  margin: 20px 0px;
+
+  p {
+    text-align: left;
+    color: $primary-color;
+    font-size: 20px;
+    font-weight: 600;
+    @include my-0;
+  }
+}
+
+.bg-color-btn {
+  text-align: right;
+  margin: 20px 0px;
+
+  a {
+    @include link-as-btn;
+    background: $primary-color;
+    color: #fff;
+    border: 3px solid $primary-color;
+
+    i {
+      @include link-as-btn-right-arrow;
+      color: $secondary-color;
+    }
+
+    &:hover {
+      background: $secondary-color;
+      color: $primary-color;
+      border: 3px solid $primary-color;
+
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}
