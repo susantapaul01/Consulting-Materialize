@@ -1,0 +1,150 @@
+.footer-section {
+  background: $primary-color;
+}
+
+.footer {
+  margin-bottom: $g-15;
+  .brand-img {
+    padding-bottom: $g-15;
+  }
+  .brand-text {
+    color: #fff;
+    opacity: 0.6;
+    font-size: $sub-text;
+    text-align: justify;
+    margin-top: 0;
+  }
+  .footer-title {
+    padding-bottom: $g-10;
+    margin-bottom: $g-30;
+    border-bottom: 1px solid #999;
+    h5 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #fff;
+      text-transform: lowercase;
+    }
+  }
+  .news-box {
+    .sub-news-box {
+      margin-bottom: $g-30;
+      .news-link {
+        color: #fff;
+        font-size: $text;
+        font-weight: 500;
+        display: inline-block;
+        transition: all 0.3s;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+      .date {
+        i {
+          color: $secondary-color;
+          margin-right: 5px;
+        }
+        span {
+          color: #fff;
+          font-size: $sub-text;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .extra-links-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .extra-links {
+      margin-top: 0;
+      li {
+        margin-bottom: $g-15;
+        a {
+          font-size: $sub-text;
+          text-transform: capitalize;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .email-text {
+    color: #fff;
+    opacity: 0.6;
+    font-size: $sub-text;
+    font-weight: 500;
+    text-align: left;
+  }
+  form {
+    .input-field {
+      input {
+        height: auto;
+        background: #fff;
+        border: none;
+        box-sizing: border-box;
+        padding: 12px 60px 12px 12px;
+      }
+      button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: $secondary-color;
+        border: none;
+        padding: 12.2px 15px;
+        i {
+          color: $primary-color;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+.bottom {
+  margin-top: $g-10 !important;
+  margin-bottom: $g-10 !important;
+}
+.copyright-text {
+  p {
+    font-size: $sub-text;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 500;
+    margin: 0px !important;
+    padding-top: 10px;
+
+    a {
+      color: #6c98e1;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.btm-socials-links {
+  text-align: right;
+  a {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 0px 5px 8px;
+
+    i {
+      font-size: $icon-size;
+      color: $primary-color;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

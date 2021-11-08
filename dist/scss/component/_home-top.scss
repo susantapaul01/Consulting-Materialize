@@ -45,12 +45,11 @@
 
     li {
       display: inline-block;
-      align-items: center;
       margin-left: 12px;
       @include element-flex;
 
       span {
-        font-size: 13px;
+        font-size: $sub-text;
         margin-left: 8px;
         color: #fff;
       }

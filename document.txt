@@ -3,3 +3,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+
+Why use Montserrat google font?
+Ans: 
+>> This font carries a very modernist style. 
+Suitable for Business, corporate, personal website and web applications.
+This font makes a good feeling while people reading.
+
+Color:
+$primary-color: #002e5b;
+$secondary-color: #fde428;
+
+I think,
+These 2 colors enhance the beauty of the website.
+text color white and these two colors as a background are create the best pair color.
+people will not be upset when they are visiting this kind of web pages.
+
+Images:
+All the images are suitable for business or corporate website / web application.
